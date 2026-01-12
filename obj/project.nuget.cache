@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FRceo+dtsKY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vados\\Desktop\\ORPO\\ORPO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vados\\.nuget\\packages\\ahocorasick\\2.0.279\\ahocorasick.2.0.279.nupkg.sha512",
+    "C:\\Users\\vados\\.nuget\\packages\\nreco.text.ahocorasickdoublearraytrie\\1.1.1\\nreco.text.ahocorasickdoublearraytrie.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

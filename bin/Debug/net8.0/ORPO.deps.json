@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ORPO/1.0.0": {
+        "dependencies": {
+          "AhoCorasick": "2.0.279",
+          "NReco.Text.AhoCorasickDoubleArrayTrie": "1.1.1"
+        },
+        "runtime": {
+          "ORPO.dll": {}
+        }
+      },
+      "AhoCorasick/2.0.279": {
+        "runtime": {
+          "lib/netstandard2.0/AhoCorasick.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.279.0"
+          }
+        }
+      },
+      "NReco.Text.AhoCorasickDoubleArrayTrie/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/NReco.Text.AhoCorasickDoubleArrayTrie.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ORPO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AhoCorasick/2.0.279": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uSpY0Gf6RDCsYak90jXwUxFoU506gYgt5TQtJExQg6bP8yw59DteCWk4Xq1ml8gj7nr5qLnuFBiL9VEkVRwg7A==",
+      "path": "ahocorasick/2.0.279",
+      "hashPath": "ahocorasick.2.0.279.nupkg.sha512"
+    },
+    "NReco.Text.AhoCorasickDoubleArrayTrie/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D/iVIymEJl5vDdN/POqAan1zcJNrXMV5RwJ5vjTRAhFeFanUF/MTlBTOH3d+j6B/E/YYKIauq5UWu6nY0+o14g==",
+      "path": "nreco.text.ahocorasickdoublearraytrie/1.1.1",
+      "hashPath": "nreco.text.ahocorasickdoublearraytrie.1.1.1.nupkg.sha512"
+    }
+  }
+}

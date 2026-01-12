@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AhoCorasick/2.0.279": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AhoCorasick.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/AhoCorasick.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NReco.Text.AhoCorasickDoubleArrayTrie/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NReco.Text.AhoCorasickDoubleArrayTrie.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NReco.Text.AhoCorasickDoubleArrayTrie.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AhoCorasick/2.0.279": {
+      "sha512": "uSpY0Gf6RDCsYak90jXwUxFoU506gYgt5TQtJExQg6bP8yw59DteCWk4Xq1ml8gj7nr5qLnuFBiL9VEkVRwg7A==",
+      "type": "package",
+      "path": "ahocorasick/2.0.279",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "ahocorasick.2.0.279.nupkg.sha512",
+        "ahocorasick.nuspec",
+        "lib/net40/AhoCorasick.dll",
+        "lib/net40/AhoCorasick.xml",
+        "lib/netstandard2.0/AhoCorasick.dll",
+        "lib/netstandard2.0/AhoCorasick.xml"
+      ]
+    },
+    "NReco.Text.AhoCorasickDoubleArrayTrie/1.1.1": {
+      "sha512": "D/iVIymEJl5vDdN/POqAan1zcJNrXMV5RwJ5vjTRAhFeFanUF/MTlBTOH3d+j6B/E/YYKIauq5UWu6nY0+o14g==",
+      "type": "package",
+      "path": "nreco.text.ahocorasickdoublearraytrie/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NReco.Text.AhoCorasickDoubleArrayTrie.dll",
+        "lib/netstandard2.0/NReco.Text.AhoCorasickDoubleArrayTrie.xml",
+        "nreco.text.ahocorasickdoublearraytrie.1.1.1.nupkg.sha512",
+        "nreco.text.ahocorasickdoublearraytrie.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AhoCorasick >= 2.0.279",
+      "NReco.Text.AhoCorasickDoubleArrayTrie >= 1.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vados\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vados\\Desktop\\ORPO\\ORPO.csproj",
+      "projectName": "ORPO",
+      "projectPath": "C:\\Users\\vados\\Desktop\\ORPO\\ORPO.csproj",
+      "packagesPath": "C:\\Users\\vados\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vados\\Desktop\\ORPO\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vados\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AhoCorasick": {
+            "target": "Package",
+            "version": "[2.0.279, )"
+          },
+          "NReco.Text.AhoCorasickDoubleArrayTrie": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
