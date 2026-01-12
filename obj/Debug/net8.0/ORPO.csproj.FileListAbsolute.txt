@@ -16,3 +16,4 @@ C:\Users\vados\Desktop\ORPO\obj\Debug\net8.0\ORPO.csproj.AssemblyReference.cache
 C:\Users\vados\Desktop\ORPO\bin\Debug\net8.0\AhoCorasick.dll
 C:\Users\vados\Desktop\ORPO\bin\Debug\net8.0\NReco.Text.AhoCorasickDoubleArrayTrie.dll
 C:\Users\vados\Desktop\ORPO\obj\Debug\net8.0\ORPO.csproj.Up2Date
+C:\Users\vados\Desktop\ORPO\obj\Debug\net8.0\ORPO.sourcelink.json
